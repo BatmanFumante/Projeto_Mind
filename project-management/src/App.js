@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Dashboard from './pages/Dashboard'; // Importe a nova página
+import Dashboard from './pages/Dashboard'; 
 import './index.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
